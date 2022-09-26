@@ -1,0 +1,40 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* FINE-RESET */
+
+/* TYPOGRAPHY */
+body{
+    font-family: 'Open Sans', sans-serif
+}
+/* FINE TYPOGRAPHY */
+
+/* COMMONS */
+.blue-button{
+    border: none;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+/* FINE-COMMONS */
+
+/* HEADER */
+.header{
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul, li{
+    display: inline-block;
+    vertical-align: top
+}
+nav ul a{
+    text-decoration: none;
+}
