@@ -122,7 +122,7 @@ nav .blue-button{
 /* Sezione abbonamenti */
 .sez-abbonamenti{
     margin: auto;
-    width: 50%;
+    width: 60%;
     margin-top: 100px;
 }
 .sez-abbonamenti h2{
@@ -136,15 +136,53 @@ nav .blue-button{
     border: 1px solid gray;
     width: 30%;
 }
-.abbonamento-1 > div{
+.tipo-abbonamento{
     border-bottom: 1px solid gray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
 }
+
+/* Elementio delle info */
+.info-abbonamento {
+    padding-left: 20px;
+}
+.info-abbonamento h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 .info-abbonamento span{
     display: block;
+    margin-top: 10px;
 }
 .info-abbonamento .blue-button{
-    padding: 10px 20px;
+    padding: 10px 35px;
     font-size: 12px;
     text-align: center;
+    margin-bottom: 20px;
+}
+.buy-now{
+    color: blue;
+}
+.info-abbonamento hr{
+    width: 40px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.info-abbonamento ul:first-of-type{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info-abbonamento ul:last-of-type{
+    margin-top: 40px;
+}
+.info-abbonamento li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info-abbonamento ul:last-of-type i{
+    color: blue;
+    font-size: 14px;
 }
 /* FINE MAIN */
