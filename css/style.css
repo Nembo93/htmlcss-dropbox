@@ -262,6 +262,14 @@ nav .blue-button{
 .dropbox-business{
     width: 55%;
     margin: auto;
+    margin-top: 100px;
+}
+.dropbox-business > div:first-child{
+    margin-bottom: 30px;
+}
+.drop-business-img h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .drop-business-img{
      display: flex;
@@ -274,6 +282,17 @@ nav .blue-button{
 .drop-business-img > div{
     font-size: 14px;
     width: calc(100% / 3);
+}
+.box-bottom{
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.drop-business-bottom{
+    width: 50%;
+    font-size: 14px;
+}
+.drop-business-bottom h2{
+    margin-bottom: 30px;
 }
 /* Fine sezione Dropbox Business */
 /* FINE MAIN */
