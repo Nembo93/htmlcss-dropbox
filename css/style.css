@@ -33,7 +33,7 @@ header{
 }
 nav{
     padding: 10px;
-    font-size: 14px;
+    font-size: 12px;
     vertical-align: middle;
 }
 /* Logo */
@@ -57,7 +57,7 @@ nav ul a{
     vertical-align: middle;
 }
 nav .blue-button{
-    font-size: 14px;
+    font-size: 12px;
     padding: 5px 10px;
 }
 /* FINE-HEADER */
@@ -70,13 +70,14 @@ nav .blue-button{
 }
 /* Contenitore principale */
 .hero-container{
-    max-width: 60%;
+    max-width: 65%;
     margin: auto;
 }
 /* Titolo */
 .hero-container h1{
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 50px;
 }
 /* Parte interna */
 .hero-box{
@@ -122,8 +123,8 @@ nav .blue-button{
 /* Sezione abbonamenti */
 .sez-abbonamenti{
     margin: auto;
-    width: 60%;
-    margin-top: 100px;
+    width: 55%;
+    margin-top: 150px;
 }
 .sez-abbonamenti h2{
     margin-bottom: 30px;
@@ -131,10 +132,12 @@ nav .blue-button{
 .box-abbonamenti{
     margin-top: 15px;
     font-size: 12px;
+    display: flex;
+    justify-content: space-between;
 }
-.abbonamento-1{
+.abbonamento{
     border: 1px solid gray;
-    width: 30%;
+    width: calc(100% / 3 - 10px);
 }
 .tipo-abbonamento{
     border-bottom: 1px solid gray;
@@ -145,7 +148,7 @@ nav .blue-button{
 
 /* Elementio delle info */
 .info-abbonamento {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .info-abbonamento h3{
     margin-top: 30px;
@@ -157,7 +160,7 @@ nav .blue-button{
     margin-top: 10px;
 }
 .info-abbonamento .blue-button{
-    padding: 10px 35px;
+    padding: 10px 20px;
     font-size: 12px;
     text-align: center;
     margin-bottom: 20px;
@@ -180,6 +183,7 @@ nav .blue-button{
 .info-abbonamento li{
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
 }
 .info-abbonamento ul:last-of-type i{
     color: blue;
