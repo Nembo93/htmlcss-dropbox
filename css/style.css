@@ -142,7 +142,7 @@ nav .blue-button{
 .tipo-abbonamento{
     border-bottom: 1px solid gray;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 8px;
 }
 
@@ -151,7 +151,7 @@ nav .blue-button{
     padding-left: 10px;
     padding-right: 30px;
 }
-.info-abbonamento h3{
+.info-abbonamento h3, .info-abbonamento-4 h3{
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -195,4 +195,32 @@ nav .blue-button{
 .info-abbonamento i{
     margin-right: 5px;
 }
+/* abbonamento 4 */
+.riga-abbonamento{
+    font-size: 12px;
+    height: calc(237.3px - 31px);
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.info-abbonamento-4{
+    display: flex;
+}
+.info-abbonamento-4 div:first-child{
+    padding-left: 10px;
+    width: 70%;
+}
+.info-abbonamento-4 p{
+    margin-top: 40px;
+}
+.info-abbonamento-4 .blue-button{
+    padding: 10px 20px;
+    width: 180px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 30px;
+    height: 34px;
+}
+
+
 /* FINE MAIN */
