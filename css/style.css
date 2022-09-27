@@ -137,7 +137,7 @@ nav .blue-button{
 }
 .abbonamento{
     border: 1px solid gray;
-    width: calc(100% / 3 - 10px);
+    width: calc(100% / 3 - 15px);
 }
 .tipo-abbonamento{
     border-bottom: 1px solid gray;
@@ -200,7 +200,7 @@ nav .blue-button{
     font-size: 12px;
     height: calc(237.3px - 31px);
     border: 1px solid gray;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .info-abbonamento-4{
     display: flex;
@@ -221,6 +221,11 @@ nav .blue-button{
     margin-top: 30px;
     height: 34px;
 }
+/* Fine sezione abbonamenti */
 
+/* Sezione "Trova un partner" */
+
+
+/* Fine sezione "Trova un partner" */
 
 /* FINE MAIN */
