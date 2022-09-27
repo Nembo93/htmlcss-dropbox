@@ -307,6 +307,22 @@ nav .blue-button{
     width: calc(100vw / 10 * 4);
     height: calc(100vw / 10 * 3);
     border: 1px solid black;
+    padding-top: 50px;
+    padding-left: 30px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.box-centrale img{
+    width: 40%;
+}
+.box-centrale hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box-centrale span{
+    margin-top: 50px;
 }
 .box-affiliati{
     width: calc(100vw / 10 * 3);
@@ -319,6 +335,39 @@ nav .blue-button{
     width: 50%;
     background-color: yellow;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-affiliati-img img{
+    width: 50%;
+}
+.blue img{
+    height: 30%;
+}
+.green{
+     background-color: green;
+}
+.brown{
+    background-color: brown;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.red-2{
+    background-color: red;
+}
+.azure{
+    background-color: azure;
+}
+.blue-2{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
 }
 
 /* Fine sezione Dropbox Business */
