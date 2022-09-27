@@ -226,7 +226,7 @@ nav .blue-button{
 /* Sezione "Trova un partner" */
 .container-partner{
     width: 55%;
-    height: 600px;
+    height: 400px;
     margin: auto;
     margin-top: 100px;
     display: flex;
@@ -256,7 +256,24 @@ nav .blue-button{
     padding: 10px 15px;
     border: 1px solid black;
 }
-
 /* Fine sezione "Trova un partner" */
 
+/* Sezione Dropbox Business */
+.dropbox-business{
+    width: 55%;
+    margin: auto;
+}
+.drop-business-img{
+     display: flex;
+     flex-wrap: wrap;
+}
+.drop-business-img img{
+    display: block;
+    width: 100%;
+}
+.drop-business-img > div{
+    font-size: 14px;
+    width: calc(100% / 3);
+}
+/* Fine sezione Dropbox Business */
 /* FINE MAIN */
