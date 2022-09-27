@@ -259,6 +259,8 @@ nav .blue-button{
 /* Fine sezione "Trova un partner" */
 
 /* Sezione Dropbox Business */
+
+/* Operazioni */
 .dropbox-business{
     width: 55%;
     margin: auto;
@@ -290,9 +292,53 @@ nav .blue-button{
 .drop-business-bottom{
     width: 50%;
     font-size: 14px;
+    margin-bottom: 50px;
 }
 .drop-business-bottom h2{
     margin-bottom: 30px;
 }
+
+/* Affiliati */
+.container-affiliati{
+    display: flex;
+}
+.box-lato, .box-centro{
+    width: calc(100vw / 3);
+}
+.box-lato{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-affiliati{
+    width: calc(100% / 2);
+    max-height: 224.83px;
+    flex-grow: 1;
+}
+
+.box-1{
+    background-color: green;
+}
+.box-1 img{
+    width: 50%;  
+}
+.box-2{
+    background-color: brown;
+}
+.box-2 img{
+    width: 50%;
+}
+.box-3{
+    background-color: blue;
+}
+.box-3 img{
+    width: 50%;
+}
+.box-4{
+    background-color: red;
+}
+.box-4 img{
+    width: 50%;
+}
+
 /* Fine sezione Dropbox Business */
 /* FINE MAIN */
