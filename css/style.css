@@ -149,6 +149,7 @@ nav .blue-button{
 /* Elementio delle info */
 .info-abbonamento {
     padding-left: 10px;
+    padding-right: 30px;
 }
 .info-abbonamento h3{
     margin-top: 30px;
@@ -161,9 +162,11 @@ nav .blue-button{
 }
 .info-abbonamento .blue-button{
     padding: 10px 20px;
+    width: 180px;
     font-size: 12px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-bottom: 30px;
 }
 .buy-now{
     color: blue;
@@ -174,7 +177,7 @@ nav .blue-button{
     margin-bottom: 30px;
 }
 .info-abbonamento ul:first-of-type{
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 .info-abbonamento ul:last-of-type{
@@ -182,11 +185,14 @@ nav .blue-button{
 }
 .info-abbonamento li{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     display: flex;
 }
 .info-abbonamento ul:last-of-type i{
     color: blue;
     font-size: 14px;
+}
+.info-abbonamento i{
+    margin-right: 5px;
 }
 /* FINE MAIN */
