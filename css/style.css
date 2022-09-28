@@ -127,6 +127,9 @@ nav .blue-button{
 .sez-abbonamenti h2{
     margin-bottom: 30px;
 }
+.sez-abbonamenti > span{
+    margin-right: 30px;
+}
 .box-abbonamenti{
     margin-top: 15px;
     display: flex;
@@ -415,9 +418,16 @@ nav .blue-button{
     padding-top: 30px;
     padding-bottom: 30px;
     border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 .box-faq div:last-child{
     border-bottom: 1px solid gray;
+}
+.box-faq button{
+    border: none;
+    background-color: transparent;
 }
 /* Fine sezione FAQ */
 
@@ -434,7 +444,6 @@ footer{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
 }
 .box-footer ul{
     list-style: none;
@@ -450,6 +459,11 @@ footer{
     padding-top: 50px;
     color: lightgray;
     border: 1px solid white;
+}
+.language button{
+    color: lightgray;
+    border: none;
+    background-color: transparent;
 }
 
 
