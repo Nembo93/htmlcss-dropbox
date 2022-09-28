@@ -8,8 +8,10 @@
 
 /* TYPOGRAPHY */
 body{
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
+
 /* FINE TYPOGRAPHY */
 
 /* COMMONS */
@@ -46,7 +48,7 @@ nav img{
 nav ul{
     list-style: none;
 }
-nav ul, li{
+nav ul, nav ul li{
     display: inline-block;
     vertical-align: top;   
 }
@@ -229,6 +231,7 @@ nav .blue-button{
     height: 400px;
     margin: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
 }
 .partner-img{
@@ -264,7 +267,6 @@ nav .blue-button{
 .dropbox-business{
     width: 55%;
     margin: auto;
-    margin-top: 100px;
 }
 .dropbox-business > div:first-child{
     margin-bottom: 30px;
@@ -287,12 +289,12 @@ nav .blue-button{
 }
 .box-bottom{
     margin-top: 40px;
-    margin-bottom: 120px;
 }
 .drop-business-bottom{
     width: 50%;
     font-size: 14px;
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 .drop-business-bottom h2{
     margin-bottom: 30px;
@@ -393,7 +395,63 @@ nav .blue-button{
     padding: 10px 15px;
     border: 1px solid black;
 }
-
-
 /* Fine sezione Dropbox Business */
+
+/* Sezione FAQ */
+.container-faq{
+    height: calc(100vw / 10 * 3);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-faq{
+    width: 55%;
+}
+.container-faq h2{
+    margin-bottom: 40px;
+}
+.box-faq div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid gray;
+}
+.box-faq div:last-child{
+    border-bottom: 1px solid gray;
+}
+/* Fine sezione FAQ */
+
+footer{
+    height: calc(100vw / 10 * 3);
+    width: 100vw;
+    color: white;
+    background-color: black;
+}
+.box-footer{
+    width: 70%;
+    height: 70%;
+    padding-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+.box-footer ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.box-footer ul li{
+    margin-top: 20px;
+}
+.language{
+    width: 70%;
+    height: 30%;
+    margin: auto;
+    padding-top: 50px;
+    color: lightgray;
+    border: 1px solid white;
+}
+
+
+
 /* FINE MAIN */
