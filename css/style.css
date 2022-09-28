@@ -306,9 +306,9 @@ nav .blue-button{
 .box-centrale{
     width: calc(100vw / 10 * 4);
     height: calc(100vw / 10 * 3);
-    border: 1px solid black;
     padding-top: 50px;
     padding-left: 30px;
+    padding-right: 30px;
     background-color: lightgray;
     display: flex;
     flex-direction: column;
@@ -320,6 +320,7 @@ nav .blue-button{
 .box-centrale hr{
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 20%;
 }
 .box-centrale span{
     margin-top: 50px;
@@ -327,14 +328,13 @@ nav .blue-button{
 .box-affiliati{
     width: calc(100vw / 10 * 3);
     height: calc(100vw / 10 * 3);
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 .box-affiliati-img{
     width: 50%;
+    height: 50%;
     background-color: yellow;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,6 +369,31 @@ nav .blue-button{
 .yellow{
     background-color: yellow;
 }
+/* Bottom Business */
+.drop-bus-prova{
+    height: calc(100vw / 10 * 1.5);
+    background-color: lightblue;
+}
+.drop-bus-prova > div{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.drop-bus-button, .drop-bus-title{
+    height: 25%;   
+}
+.drop-bus-prova button{
+    border: none;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+
 
 /* Fine sezione Dropbox Business */
 /* FINE MAIN */
