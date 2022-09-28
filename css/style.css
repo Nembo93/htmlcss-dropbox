@@ -17,7 +17,7 @@ body{
 /* COMMONS */
 .blue-button{
     border: none;
-    background-color: blue;
+    background-color: rgb(0, 97, 255);
     color: white;
 }
 
@@ -36,30 +36,27 @@ header{
 }
 nav{
     padding: 10px;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
 }
 /* Logo */
 nav img{
     width: 100px;
     height: 20px;
-    vertical-align: middle;
 }
 /* Link e bottoni */
 nav ul{
     list-style: none;
 }
 nav ul, nav ul li{
-    display: inline-block;
-    vertical-align: top;   
+    display: inline-block;  
 }
 nav ul a{
     text-decoration: none;
     padding: 10px;
     color: black;
-    vertical-align: middle;
 }
 nav .blue-button{
-    font-size: 12px;
     padding: 5px 10px;
 }
 /* FINE-HEADER */
@@ -68,7 +65,7 @@ nav .blue-button{
 /* Sfondo */
 .hero{
     margin-top: 50px;
-    background-color: lightblue;
+    background-color: rgb(180, 208, 231);
 }
 /* Contenitore principale */
 .hero-container{
@@ -132,9 +129,9 @@ nav .blue-button{
 }
 .box-abbonamenti{
     margin-top: 15px;
-    font-size: 12px;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
 }
 .abbonamento{
     border: 1px solid gray;
@@ -150,7 +147,7 @@ nav .blue-button{
 /* Elementio delle info */
 .info-abbonamento {
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 .info-abbonamento h3, .info-abbonamento-4 h3{
     margin-top: 30px;
@@ -198,7 +195,6 @@ nav .blue-button{
 }
 /* abbonamento 4 */
 .riga-abbonamento{
-    font-size: 12px;
     height: calc(237.3px - 31px);
     border: 1px solid gray;
     margin-top: 15px;
@@ -214,9 +210,8 @@ nav .blue-button{
     margin-top: 40px;
 }
 .info-abbonamento-4 .blue-button{
-    padding: 10px 20px;
+    padding: 10px 10px;
     width: 180px;
-    font-size: 12px;
     text-align: center;
     margin-left: 15px;
     margin-top: 30px;
@@ -244,7 +239,6 @@ nav .blue-button{
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 20px;
-    font-size: 14px;
 }
 .info-partner p{
     margin-top: 20px;
@@ -277,26 +271,27 @@ nav .blue-button{
 .drop-business-img{
      display: flex;
      flex-wrap: wrap;
+     justify-content: space-between;
 }
 .drop-business-img img{
     display: block;
     width: 100%;
 }
 .drop-business-img > div{
-    font-size: 14px;
-    width: calc(100% / 3);
+    width: 30%;
 }
 .box-bottom{
     margin-top: 40px;
 }
 .drop-business-bottom{
-    width: 50%;
+    width: 70%;
     font-size: 14px;
     margin-top: 150px;
     margin-bottom: 100px;
 }
 .drop-business-bottom h2{
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 /* Affiliati */
@@ -310,7 +305,7 @@ nav .blue-button{
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: lightgray;
+    background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
     font-size: 14px;
@@ -347,33 +342,37 @@ nav .blue-button{
     height: 30%;
 }
 .green{
-     background-color: green;
+     background-color: rgb(162, 211, 155);
 }
 .brown{
-    background-color: brown;
+    background-color: rgb(97, 8, 43);
 }
 .blue{
-    background-color: blue;
+    background-color: rgb(0, 247, 206);
 }
 .red{
-    background-color: red;
+    background-color: rgb(254, 28, 28);
 }
 .red-2{
-    background-color: red;
+    background-color: rgb(208, 0, 030);
 }
 .azure{
-    background-color: azure;
+    background-color: rgb(180, 208, 131);
 }
 .blue-2{
-    background-color: blue;
+    background-color: rgb(13, 36, 129S);
 }
 .yellow{
-    background-color: yellow;
+    background-color: rgb(255, 216, 48);
 }
 /* Bottom Business */
 .drop-bus-prova{
     height: calc(100vw / 10 * 1.5);
-    background-color: lightblue;
+    background-color: rgb(180, 208, 231);
+}
+.drop-bus-prova h2{
+    color: rgb(101, 35, 61);
+    font-size: 30px;
 }
 .drop-bus-prova > div{
     width: 55%;
@@ -403,6 +402,8 @@ nav .blue-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 .box-faq{
     width: 55%;
