@@ -32,10 +32,10 @@ header{
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 nav{
     padding: 10px;
-    font-size: 12px;
     vertical-align: middle;
 }
 /* Logo */
@@ -73,12 +73,14 @@ nav .blue-button{
 /* Contenitore principale */
 .hero-container{
     max-width: 65%;
+    height: 480px;
     margin: auto;
+    position: relative;
 }
 /* Titolo */
 .hero-container h1{
-    padding-top: 50px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-size: 50px;
 }
 /* Parte interna */
@@ -86,25 +88,24 @@ nav .blue-button{
     max-width: 100%;
     margin: auto;
     display: flex;
+    position: absolute;
+    bottom: -50px;
 }
 /* Parte sx */
 .hero-box-left{
     width: 30%;
     padding-top: 10px;
-    font-size: 12px;
 }
 .hero-box-left .blue-button{
-    font-size: 12px;
     padding: 10px 5px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .hero-box-left span{
     display: block;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #hero-arrow{
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
 #hero-arrow i{
     font-size: 30px;
@@ -112,11 +113,9 @@ nav .blue-button{
 /* Parte dx */
 .hero-box-right{
     width: 70%;
-    position: relative;
 }
 .hero-box-right img{
     width: 100%;
-    position: absolute;
     top: 10px;
 }
 /* FINE HERO */
