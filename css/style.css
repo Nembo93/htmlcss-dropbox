@@ -33,6 +33,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 100;
+    box-shadow: 0 3px 0 rgba(61, 61, 61, 0.1);
 }
 nav{
     padding: 10px;
