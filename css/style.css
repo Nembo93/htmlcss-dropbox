@@ -125,10 +125,10 @@ nav .blue-button{
     margin-top: 150px;
 }
 .sez-abbonamenti h2{
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .box-abbonamenti{
-    margin-top: 15px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     font-size: 14px;
@@ -148,7 +148,7 @@ nav .blue-button{
 .box-radio-b {
     position: relative;
     padding-left: 25px;
-    margin-right: 20px;
+    margin-right: 25px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -505,12 +505,22 @@ footer{
     margin: auto;
     padding-top: 50px;
     color: lightgray;
-    border: 1px solid white;
+}
+.language > i{
+    margin-right: 5px;
 }
 .language button{
     color: lightgray;
     border: none;
     background-color: transparent;
+    position: relative;
+    width: 16px;
+    height: 20px;
+}
+.language button i{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 
