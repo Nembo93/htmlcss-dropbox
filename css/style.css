@@ -127,9 +127,6 @@ nav .blue-button{
 .sez-abbonamenti h2{
     margin-bottom: 30px;
 }
-.sez-abbonamenti > span{
-    margin-right: 30px;
-}
 .box-abbonamenti{
     margin-top: 15px;
     display: flex;
@@ -145,6 +142,56 @@ nav .blue-button{
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+/* Radio button */
+.box-radio-b {
+    position: relative;
+    padding-left: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}  
+.box-radio-b input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+}  
+.box-radio-b:hover input ~ .checkmark {
+    background-color: #ccc;
+} 
+.box-radio-b input:checked ~ .checkmark {
+    background-color: #2196F3;
+} 
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+} 
+.box-radio-b input:checked ~ .checkmark:after {
+    display: block;
+}
+.box-radio-b .checkmark:after {
+    top: 5px;
+    left: 5px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
 }
 
 /* Elementio delle info */
