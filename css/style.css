@@ -476,6 +476,9 @@ nav .blue-button{
     border: none;
     background-color: transparent;
 }
+.box-faq span{
+    font-weight: bold;
+}
 /* Fine sezione FAQ */
 
 footer{
